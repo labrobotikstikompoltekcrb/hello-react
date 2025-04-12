@@ -1,12 +1,14 @@
-import React from "react";
-class Header extends React.Component {
-    render() {
+import React, {useState} from "react";
+function Header() {
+  const judul = useState("ini dari state");
+  const list= useState("4 Makanan Khas Indonesia");
+  
       return (
         <div>
-          <h2>Ini Makanan Khas Indonesia</h2>
+          <h2>Makananan Khas Indonesia</h2>
+          <p>{list}</p>
+          <p>{judul}</p>
         </div>
       );
     }
-  }
-  
   export default Header;

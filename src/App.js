@@ -2,16 +2,15 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import List from './List';
+import './App.css';
 // Create Component 
 
 const App = () => {
   return (
-   <div>
-      <h1>Hello React</h1>
-      <p>My Name is Agus </p>
+   <div className='App'>
       <Header />
-      <Header />
-      <Header />
+      <List />
       <Footer />
    </div>
   );

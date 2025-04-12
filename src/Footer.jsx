@@ -1,9 +1,10 @@
 import React from "react";
 function Footer() {
+    const namaMhs = "Moh Firdaus"
 return (
     <div>
 <h3> Ini Halaman Footer </h3>
-<footer>🚀 Design © by Agus With 💖</footer>
+<footer>🚀 ©2025 Design With 💖 by {namaMhs}</footer>
     </div>
 );
 }
